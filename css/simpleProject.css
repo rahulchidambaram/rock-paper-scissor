@@ -1,0 +1,56 @@
+* {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe {
+    border: none;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: -10px;
+    margin-left: 14px;
+    margin-bottom: 30px;
+}
+
+.subscribe:hover {
+    opacity: 0.6;
+}
+
+.is-subcribed {
+    background-color: black;
+}
+
+.cost-input {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.calculateButton {
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+.calculation {
+    color: black;
+    font-weight: bold;
+    display: block;
+    width: 160px;
+}
+
+.amazon-header {
+    margin-top: 50px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+}

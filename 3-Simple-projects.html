@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Projects</title>
+  <!-- #DOM is a built in object -->
+  <link rel="stylesheet" href="/css/simpleProject.css">
+</head>
+
+<body>
+  <h1>Youtube Subscribe Button</h1>
+  <button class="subscribe" onclick="subscribe()"> Subscribe </button>
+
+  <h1>Rock ✊ | Paper 🖐 | Scissor ✌</h1>
+  <a href="./Rock_Paper_Scissor.html" target="_blank">Click here to view the project</a>
+
+  <h1 class="amazon-header">Amazon Shipping Calculator</h1>
+  <p>Orders under $40 = +$10 shipping charges included</p>
+  <p>Orders above $40 = Free shipping</p>
+  <input type="text" class="js-cost-input cost-input" placeholder="Cost of Order" onkeydown="handleCost(event)">
+
+  <button onclick="calculateTotal()" class="calculateButton">Calculate</button>
+  
+  <p class="calculation"></p>
+  <p class="js-error-message error-message"></p>
+
+
+
+  <script src="/scripts/simple_proj.js"></script>
+  
+</body>
+</html>
